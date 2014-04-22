@@ -10,11 +10,10 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
-Managing-Editors-at-Large
-Managing-NewDiplomaticHistory
-Publishing-Content
-Theme-Features-and-Setup-Twentyfourteen
+   Managing-Editors-at-Large
+   Managing-NewDiplomaticHistory
+   Publishing-Content
+   Theme-Features-and-Setup-Twentyfourteen
 
 
 
