@@ -4,7 +4,7 @@
 - Tweets of posts sent through Toynbeeprize
 
 ## Adding and Editing People
-- Add new people to the network using @chnm.gmu.edu as the email address.
+- Add new people to the network using @chnm.gmu.edu as the email address
 - Default password for accounts added by JW: Toynbee*Prize*Member!2014
 
 
