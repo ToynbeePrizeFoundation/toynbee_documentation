@@ -10,6 +10,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+
    Managing-Editors-at-Large
    Managing-NewDiplomaticHistory
    Publishing-Content
