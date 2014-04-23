@@ -1,22 +1,29 @@
-# Theme Features and Setup - Twentyfourteen
+Theme Features and Setup - Twentyfourteen
+***************************************
 
-## Introduction
+Introduction
+===================
 The Toynbee Prize site is using a modified version of the Twentyfourteen theme. 
 
-## Theme Modifications
+Theme Modifications
+===================
 The child theme developed for the Toynbee Prize website is under version control at https://github.com/jerielizabeth/twentyfourteen_child.
 
 This section will give a brief description of the changes in the various files contained in the child theme.
 
-### config.rb
+config.rb
+----------------
 	- configuration files for using Compass to write SASS rather than CSS directly.
-### content.php
+content.php
+----------------
 	- modified to display excerpt rather than full posts. 
 	- [<?php if ( is_search() || is_category() || is_tag() || is_home() ) : ?>
 	<div class="entry-summary">]
-### diplomatic_home.php
+diplomatic_home.php
+----------------
 	- Added Header to Diplomatic page; filtered posts by NDH category
-### functions.php
+functions.php
+----------------
 	- Added 2 function: 
 		1. Guest Author Function: 
 /*** 
@@ -58,76 +65,101 @@ function storm_social_icons_networks( $networks ) {
 
 }
 
-### Gemfile
+Gemfile
+----------------
 	- support files for Compass
 	
-### Gemfile.lock
+Gemfile.lock
+----------------
 	- support files for Compass
 	
-### global_home.php
+global_home.php
+----------------
 	- Similar to NDH home. Page template that creates the header and filters by ndh category
 	
-### header.php
+header.php
+----------------
 	- Added link to google fonts for title
 	[<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>]
 	
-### sass
+sass
+----------------
 	- SASS files used to generate the style.css file.
 	
-### sidebar.php
+sidebar.php
+----------------
 	- Add logo image file above the navigation. Image stored in the WordPress media library.
 
-### style.css
+style.css
+----------------
 	- Child theme styles. This is what makes the child theme work. Includes only those styles that have been modified from the original CSS file.
 
 
-## Plugins
+Plugins
+================
 
-### Akismet
+Akismet
+----------------
 	- Spam filtering for comments.
-### Co-Authors Plus
+Co-Authors Plus
+----------------
 	- Allows multiple authors to be listed and linked to individual posts. Will be very useful for interview posts.
-### Default featured image
+Default featured image
+----------------
 	- Theme looks better with images, so this fills in an image for all posts that do not have one explicitly set.
-### JQuery Expanding Box
+JQuery Expanding Box
+----------------
 	- used on various resources page to manage the long lists of things.
-### Members List
+Members List
+----------------
 	- Used to display set groups of authors. Also includes search and sorting functionality when authors are displayed on a page.
-### Menu Social Icons
+Menu Social Icons
+----------------
 	- Displays icons for common social media menu items. Used in header menu
-### Recent Posts Widget Extended
+Recent Posts Widget Extended
+----------------
 	- Fancy listing of recent posts. Enables sorting by category or tag. Used to display Talks in the Toynbee section.
-### Ultimate Category Excluder
+Ultimate Category Excluder
+----------------
 	- not currently in use, but can be used to block the Diplomatic History posts from the main page.
-### User Role Editor
+User Role Editor
+----------------
 	- Used to create "Diplomatic History Subscriber" User type.
-### Widgets on Pages
+Widgets on Pages
+----------------
 	- Replaces "Add Widgets to Pages". Used frequently to place widget content on pages. Titles are mostly descriptive.
-### Widget Title Links
+Widget Title Links
+----------------
 	- Makes widget titles links.
-### Woo Sidebars
+Woo Sidebars
+----------------
 	- Used to create and manage custom sidebars for different page types. This is how the different sidebars for the three content areas of the site are created and maintained.
-### Zotpress
+Zotpress
+----------------
 	- Zotero plugin for displaying library. Currently broken.
 
 
-## Menus and Settings
+Menus and Settings
+====================
 The current design relies heavily on the use of Menus to provide navigation throughout the site. This gives a brief description of the different menu and where they are operating.
 
-### Quick Links
+Quick Links
+----------------
 	- appears on front page and unassigned pages. Gives links to top items:  
 		- Forum
 		- Toynbee Prize
 		- Scholar's Network
 		- Participate
 
-### Header
+Header
+----------------
 	- appears in the top row with the title. This is the contact menu
 		- Twitter
 		- RSS
 		- Particpate
 
-### Main
+Main
+----------------
 	- appear in left sidebar and all pages. This menu has subpages listed, but they do not display. This is so the "active" styling works when navigating within the top page.
 		- Toynbee Foundation
 			- Toynbee Prize
@@ -145,12 +177,14 @@ The current design relies heavily on the use of Menus to provide navigation thro
 			- People
 			- Resources
 
-### Toynbee
+Toynbee
+----------------
 	- right sidebar menu for Toynbee pages. Title links back to main page.
 		- Toynbee Prize
 		- Conferences
 
-### Global
+Global
+----------------
 	- right sidebar menu for Global pages. Title links back to main page.
 		- What is Global History
 		- Forum (tag)
@@ -160,14 +194,16 @@ The current design relies heavily on the use of Menus to provide navigation thro
 		- Scholar's Network
 		- Contribute
 
-### Diplomatic
+Diplomatic
+----------------
 	- right sidebar menu for Diplomatic Network pages. Title links back to main page.
 		- About
 		- Blog (links back to home)
 		- People
 		- Resources
 
-### Editors at Large
+Editors at Large
+----------------
 	- Right sidebar menu for Editors at Large section. Title links to main page. Appears in the contribute page of the Global History section.
 		- Welcome
 		- Sign up
