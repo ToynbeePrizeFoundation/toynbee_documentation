@@ -19,9 +19,7 @@ content.php
 	- modified to display excerpt rather than full posts. 
 	- [<?php if ( is_search() || is_category() || is_tag() || is_home() ) : ?>
 	<div class="entry-summary">]
-diplomatic_home.php
-----------------
-	- Added Header to Diplomatic page; filtered posts by NDH category
+
 functions.php
 ----------------
 	- Added 2 function: 
