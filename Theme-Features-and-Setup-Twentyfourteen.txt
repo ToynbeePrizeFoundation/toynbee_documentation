@@ -11,15 +11,25 @@ The child theme developed for the Toynbee Prize website is under version control
 
 This section will give a brief description of the changes in the various files contained in the child theme.
 
+category.php
+-----------------
+	- Modified so as not to display the category name and description.
+
 config.rb
 ----------------
 	- configuration files for using Compass to write SASS rather than CSS directly.
+
 content.php
 ----------------
 	- modified to display excerpt rather than full posts. 
 	- [<?php if ( is_search() || is_category() || is_tag() || is_home() ) : ?>
 	<div class="entry-summary">]
 
+content-with-author.php
+---------------------------------
+	- content template for displaying the Author on Pages. Was used for  the "Perspectives on Global History" page, though currently not in use. Used with "single-with-author" page template.
+	
+	
 functions.php
 ----------------
 	- Added 2 function: 
@@ -71,10 +81,6 @@ Gemfile.lock
 ----------------
 	- support files for Compass
 	
-global_home.php
-----------------
-	- Similar to NDH home. Page template that creates the header and filters by ndh category
-	
 header.php
 ----------------
 	- Added link to google fonts for title
@@ -82,7 +88,7 @@ header.php
 	
 sass
 ----------------
-	- SASS files used to generate the style.css file.
+	- SASS files used to generate the style.css file.  Make changes here to update the style.css file. To compile those changes, run "bundle exec compass compile" or "bundle exec compass watch"
 	
 sidebar.php
 ----------------
@@ -91,6 +97,10 @@ sidebar.php
 style.css
 ----------------
 	- Child theme styles. This is what makes the child theme work. Includes only those styles that have been modified from the original CSS file.
+
+tag.php
+------------
+	- Modified to not display the tag name or description.
 
 
 Plugins

@@ -1,6 +1,6 @@
 Publishing Content on Toynbeeprize.org
 ***************************************
-
+Generally, new content to the site should be added as "posts." Distinctions between content for the Forum, the Blog, and the Resources is managed by the Categories, while tagging is used to designate both type of content and topics.
 
 
 Categories
@@ -28,30 +28,41 @@ Tagging has three functions:
 
 Announcements
 -----------------------
+- Various announcements of interest to the community, including publication of books, movement of faculty, issuing of awards, etc.
+
 Conferences and CFPs
 ------------------------------
+- Also includes workshops and lectures
+
 Editors' Choice
 ---------------------
+- Thought and opinion pieces published on the web.
+
 Jobs
 -------
-Recent Publications
-----------------------------
-Workshops
-----------------
+- Jobs that focus on Global History
+
+Funding and Opportunities
+-------------------------------------
+- Opportunities and funding beyond job postings that support work in global history.
+
 
 2. Second, to link Forum posts and References to one another by reference to content areas.
 
 Centers and Institutes
 ------------------------------
+- Listing of centers at various institutions that support the study of Global History.
+
 Programs of Study
 --------------------------
+- Listing of degree granting programs in global history. Possibly to be merged with centers and institutes.
 
- 
+3. Third, there a number of posts to be generated in order to relate programs, topics, interviews, and pieces to one another. These categories have yet to be determined.
 
 
 Featured Images
 ==============
-
+The current default featured image is the tan map. To set a featured imaged for individual posts, use the "Set Featured Image" box in the lower right corner of the add posts page. The size of the featured image is restricted to thumbnail size. This is controlled in the style sheet.
 
 
 

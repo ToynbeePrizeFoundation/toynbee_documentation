@@ -1,12 +1,18 @@
 Managing New Diplomatic History
 ***************************************
+Overview
+=========
+Overall, New Diplomatic History requires very little support. Ken manages the posting of new content, and the main point of assistance is in adding new  people to the "Network" or editing their information. 
 
-Twitter
-======
-- Tweets of posts sent through Toynbeeprize
 
 Adding and Editing People
 ======================
-- Add new people to the network using @chnm.gmu.edu as the email address
+- Add new people to the network using @chnm.gmu.edu as the email address. The default password is stored in Basecamp.
+- For people to appear in the network, enter "ndh-blog" in the blog tag.
+- Add/Edit institutional affiliation in the "Biographical Info" box.
+
+Twitter
+======
+- Tweets of posts sent through Toynbeeprize. This is managed by the WP to Twitter Plugin and is linked to the ToynbeePrize twitter account.
 
 
