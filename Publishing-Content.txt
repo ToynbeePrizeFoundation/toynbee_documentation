@@ -1,6 +1,20 @@
 Publishing Content on Toynbeeprize.org
 ***************************************
+.. _toynbee-publishing:
 Generally, new content to the site should be added as "posts." Distinctions between content for the Forum, the Blog, and the Resources is managed by the Categories, while tagging is used to designate both type of content and topics.
+
+Authors 
+=======
+Forum Posts:
+------------------
+Author information is linked in this theme, so it is necessary to create user accounts for new contributors to the blog and for those interviewed for the Forum. 
+
+Using the 
+
+Blog Posts:
+---------------
+For the blog, by contrast, we can use the guest author function to display the name of the author without creating the user account of the site, particularly as we are not using the author functionality for these pieces.
+
 
 
 Categories
@@ -57,7 +71,7 @@ Programs of Study
 --------------------------
 - Listing of degree granting programs in global history. Possibly to be merged with centers and institutes.
 
-3. Third, there a number of posts to be generated in order to relate programs, topics, interviews, and pieces to one another. These categories have yet to be determined.
+3. Third, there a number of posts to be generated in order to relate programs, topics, interviews, and pieces to one another. These categories are not yet determined.
 
 
 Featured Images

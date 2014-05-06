@@ -1,5 +1,6 @@
 Theme Features and Setup - Twentyfourteen
 ***************************************
+.. _theme-manual:
 
 Introduction
 ===================
@@ -21,14 +22,13 @@ config.rb
 
 content.php
 ----------------
-	- modified to display excerpt rather than full posts. 
-	- [<?php if ( is_search() || is_category() || is_tag() || is_home() ) : ?>
+	- modified to display excerpt rather than full posts for search results and tag archives. 
+	- [<?php if ( is_search() || is_tag() ) : ?>
 	<div class="entry-summary">]
 
 content-with-author.php
 ---------------------------------
 	- content template for displaying the Author on Pages. Was used for  the "Perspectives on Global History" page, though currently not in use. Used with "single-with-author" page template.
-	
 	
 functions.php
 ----------------

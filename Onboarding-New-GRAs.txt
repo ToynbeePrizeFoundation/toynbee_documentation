@@ -1,0 +1,55 @@
+Onboarding New GRAs
+***********************
+
+Accounts
+=================
+Servers:
+-----------
+Dev server: toynbeeprize.chnm.org
+New Diplomatic History: newdiplomatichistory.org
+Toynbee: toynbeeprize.org
+*you will need both server access and WordPress accounts for these.*
+
+3rd Party Services:
+-------------
+*See Basecamp for login information*
+Read the Docs
+Google Analytics
+Twitterfeed
+
+Project Vision and Goal
+====================
+The current goal of the Toynbee website is to promote the publication of scholarship in Global History and to become a central and respected source for current and developing scholarship in the field. This is being pursued in a couple of different ways. 
+
+First is the Global History Forum, which solicits thought pieces on Global History as well as interviews of scholars in the field. The interviews are being conducted and edited by Timothy Nunan. 
+
+Second is the Global History Blog, which curates web content related to Global History. The GRA and the Editors at Large are responsible for nominating and publishing this content. Ideally, the Blog can uncover growing conversations in the field that can, in turn, generate more structured Forum contributions.
+
+Third, the Forum serves to highlight the recipient of the Toynbee Prize and the conference panel on Global History
+
+
+GRA Responsibilities
+==================
+
+Toynbee Prize 
+-------------------
+
+
+New Diplomatic History
+--------------------------------
+GRA serves primarily as the web administrator for New Diplomatic History, adding users as requested and ensuring that material is being publicized properly.
+
+For more detailed information, see :ref:'manage-ndh'
+
+Outstanding Projects
+==================
+
+SEO
+------
+
+Social Media Campaign
+--------------------------------
+
+Content Generation for the Forum
+----------------------------------------------
+
