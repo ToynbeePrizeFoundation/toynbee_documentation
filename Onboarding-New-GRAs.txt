@@ -1,4 +1,5 @@
-Introduction to Managing toynbeeprize.org
+**************************
+Managing toynbeeprize.org
 ***********************
 
 Project Vision and Goal
@@ -31,9 +32,9 @@ Accounts
 =================
 Servers:
 -----------
-* Dev server: toynbeeprize.chnm.org
-* New Diplomatic History: newdiplomatichistory.org
-* Toynbee: toynbeeprize.org
+* Dev server: http://toynbeeprize.chnm.org
+* New Diplomatic History: http://newdiplomatichistory.org
+* Toynbee: http://toynbeeprize.org
 
 *You will need both server access and WordPress accounts for these.*
 
@@ -51,7 +52,7 @@ Email:
 --------
 We have a Google for Non-Profit account for toynbeeprize.org. 
 
-To manage the email accounts and available apps, including docs and calendars, go to admin.google.com. Login information is in BaseCamp.
+To manage the email accounts and available apps, including docs and calendars, go to http://admin.google.com. Login information is in BaseCamp.
 
 Outstanding Projects
 ==================
