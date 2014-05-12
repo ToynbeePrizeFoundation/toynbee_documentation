@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   Introduction to Managing toynbeeprize.org
    Managing-Editors-at-Large
    Managing-NewDiplomaticHistory
    Publishing-Content
