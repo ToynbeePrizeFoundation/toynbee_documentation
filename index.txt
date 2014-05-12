@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   Introduction to Managing toynbeeprize.org
+   Onboarding-New-GRAs
    Managing-Editors-at-Large
    Managing-NewDiplomaticHistory
    Publishing-Content
