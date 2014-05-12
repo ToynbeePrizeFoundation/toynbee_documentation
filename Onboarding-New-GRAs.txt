@@ -19,13 +19,13 @@ Toynbee Prize
 -------------------
 Primary responsibilities of the GRA are the maintenance of the site, maintenance of comments, the managing of the editors at large, and the publishing of content on the blog.
 
-See :ref:'managing-editors-at-large' and :ref:'toynbee-publishing' for details on the editors and publishing content. See :ref:'theme-manual' for info on managing the site.
+See :ref:'managing-editors-at-large' and :ref:`toynbee-publishing` for details on the editors and publishing content. See :ref:`theme-manual` for info on managing the site.
 
 New Diplomatic History
 --------------------------------
 GRA serves also as the web administrator for New Diplomatic History, adding users as requested and ensuring that material is being publicized properly.
 
-For more detailed information, see :ref:'manage-ndh'
+For more detailed information, see :ref:`manage-ndh`
 
 Accounts
 =================

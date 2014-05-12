@@ -5,7 +5,7 @@ Theme Features and Setup - Twentyfourteen
 
 Introduction
 ===================
-The Toynbee Prize site is using a modified version of the Twentyfourteen theme. 
+The Toynbee Prize site is using a child theme based on the Twentyfourteen theme. The child theme file only contains those styles and functions that overwrite the Twentyfourteen defaults. Make all desired changes within the child theme files.
 
 Theme Modifications
 ===================
@@ -24,8 +24,8 @@ config.rb
 content.php
 ----------------
 	- modified to display excerpt rather than full posts for search results and tag archives. 
-	- [<?php if ( is_search() || is_tag() ) : ?>
-	<div class="entry-summary">]
+	| [<?php if ( is_search() || is_tag() ) : ?>
+	| <div class="entry-summary">]
 
 content-with-author.php
 ---------------------------------
@@ -34,45 +34,42 @@ content-with-author.php
 functions.php
 ----------------
 	- Added 2 function: 
-		1. Guest Author Function: 
-/*** 
-/* Add Guest Author Capabilities
-*****/
+1. Guest Author Function: 
 
-add_filter( 'the_author', 'guest_author_name' );
-add_filter( 'get_the_author_display_name', 'guest_author_name' );
+| /* Add Guest Author Capabilities */
+| 
+| add_filter( 'the_author', 'guest_author_name' );
+| add_filter( 'get_the_author_display_name', 'guest_author_name' );
+|
+| function guest_author_name( $name ) {
+| global $post;
+|
+| $author = get_post_meta( $post->ID, 'guest-author', true );
+|
+| if ( $author )
+| $name = $author;
+|
+| return $name;
+| }
 
-function guest_author_name( $name ) {
-global $post;
+2. RSS icon to font-awesome
 
-$author = get_post_meta( $post->ID, 'guest-author', true );
-
-if ( $author )
-$name = $author;
-
-return $name;
-}
-		2. RSS icon to font-awesome
-/*** 
-/* Add RSS Icon for Menu Bar
-*****/
-
-add_filter( 'storm_social_icons_networks', 'storm_social_icons_networks');
-function storm_social_icons_networks( $networks ) {
-
-    $extra_icons = array (
-        '/feed' => array(                  // Enable this icon for any URL containing this text
-            'name' => 'RSS',               // Default menu item label
-            'class' => 'rss',              // Custom class
-            'icon' => 'icon-rss',          // FontAwesome class
-            'icon-sign' => 'icon-rss-sign' // May not be available. Check FontAwesome.
-        ),
-    );
-
-    $extra_icons = array_merge( $networks, $extra_icons );
-    return $extra_icons;
-
-}
+| /* Add RSS Icon for Menu Bar */
+| 
+| add_filter( 'storm_social_icons_networks', 'storm_social_icons_networks');
+| function storm_social_icons_networks( $networks ) {
+|   $extra_icons = array (
+|       '/feed' => array(                  // Enable this icon for any URL | containing this text
+|         'name' => 'RSS',               // Default menu item label
+|         'class' => 'rss',              // Custom class
+|         'icon' => 'icon-rss',          // FontAwesome class
+|          'icon-sign' => 'icon-rss-sign' // May not be available. Check FontAwesome.
+|           ),
+|     );
+|
+|     $extra_icons = array_merge( $networks, $extra_icons );
+|      return $extra_icons;
+| }
 
 Gemfile
 ----------------
@@ -85,11 +82,11 @@ Gemfile.lock
 header.php
 ----------------
 	- Added link to google fonts for title
-	[<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>]
+	| [<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>]
 	
 sass
 ----------------
-	- SASS files used to generate the style.css file.  Make changes here to update the style.css file. To compile those changes, run "bundle exec compass compile" or "bundle exec compass watch"
+	- SASS files used to generate the style.css file.  Make changes here to update the style.css file. To compile those changes, run "bundle exec compass compile" or "bundle exec compass watch." 
 	
 sidebar.php
 ----------------
@@ -110,42 +107,62 @@ Plugins
 Akismet
 ----------------
 	- Spam filtering for comments.
+	
 Co-Authors Plus
 ----------------
 	- Allows multiple authors to be listed and linked to individual posts. Will be very useful for interview posts.
+
 Default featured image
 ----------------
 	- Theme looks better with images, so this fills in an image for all posts that do not have one explicitly set.
-JQuery Expanding Box
-----------------
-	- used on various resources page to manage the long lists of things.
+
+Display Authors Widget
+-----------------
+	- Used with Widgets on Pages for list of Forum Authors on "Scholars' Network" Page.
+
+Google Analytics
+--------------
+	- Adds Google Analytics information to each page.
+
 Members List
 ----------------
 	- Used to display set groups of authors. Also includes search and sorting functionality when authors are displayed on a page.
+
 Menu Social Icons
 ----------------
 	- Displays icons for common social media menu items. Used in header menu
+
+PressForward
+------------------
+	- RSS reader and editorial workflow tool.
+
 Recent Posts Widget Extended
 ----------------
 	- Fancy listing of recent posts. Enables sorting by category or tag. Used to display Talks in the Toynbee section.
+
+ScholarPress Researcher
+-----------------
+	- Displays Zotero Library on Recent Scholarship Page.
+
 Ultimate Category Excluder
 ----------------
-	- not currently in use, but can be used to block the Diplomatic History posts from the main page.
-User Role Editor
-----------------
-	- Used to create "Diplomatic History Subscriber" User type.
+	- Used to block "Resources" posts from front page and from feeds.
+
 Widgets on Pages
 ----------------
-	- Replaces "Add Widgets to Pages". Used frequently to place widget content on pages. Titles are mostly descriptive.
+	- Replaces "Add Widgets to Pages". Used frequently to place widget content on pages. Titles are descriptive of the content they contain.
+
 Widget Title Links
 ----------------
 	- Makes widget titles links.
+
 Woo Sidebars
 ----------------
 	- Used to create and manage custom sidebars for different page types. This is how the different sidebars for the three content areas of the site are created and maintained.
-Zotpress
-----------------
-	- Zotero plugin for displaying library. Currently broken.
+
+WordPress to Twitter
+--------------
+	- Tweets Recent Posts.
 
 
 Menus and Settings
@@ -155,61 +172,59 @@ The current design relies heavily on the use of Menus to provide navigation thro
 Quick Links
 ----------------
 	- appears on front page and unassigned pages. Gives links to top items:  
-		- Forum
+	- Forum
+		- Blog
 		- Toynbee Prize
 		- Scholar's Network
 		- Participate
+		- About the Toynbee Prize Foundation
 
 Header
 ----------------
 	- appears in the top row with the title. This is the contact menu
 		- Twitter
 		- RSS
-		- Particpate
+		- Participate
 
 Main
 ----------------
-	- appear in left sidebar and all pages. This menu has subpages listed, but they do not display. This is so the "active" styling works when navigating within the top page.
-		- Toynbee Foundation
-			- Toynbee Prize
-			- Conferences
-		- Global History Initiative
-			- What is Global History
-			- About the forum
-			- Forum (tag)
+	- appears in left sidebar on all pages. This menu has subpages listed, but they do not display. This is so the "active" styling works when navigating around the site.
+		- The Toynbee Prize Foundation
+			- The Toynbee Prize
+		- Global History Forum (category)
+			- The Global History Forum (page)
+		- Global History Initiatives (category)
+			- Perspectives on Global History
+			- International Conferences Conferences
 			- New Global Studies Journal
-			- Resources
-			- Scholar's Network
-			- Contribute
-		- New Diplomatic History
-			- About
-			- People
+			- Recent Scholarship
 			- Resources
 
 Toynbee
 ----------------
 	- right sidebar menu for Toynbee pages. Title links back to main page.
-		- Toynbee Prize
-		- Conferences
+		- About the Toynbee Prize Foundation
+		- Past Prize Winners
+
+Forum
+--------
+	- Right sidebar Menu for Forum Pages.
+		- Global History Forum (category)
+		- About the Forum
+		- Scholars' Network
+		- Participate
 
 Global
 ----------------
 	- right sidebar menu for Global pages. Title links back to main page.
-		- What is Global History
-		- Forum (tag)
-			- About the forum
+		- Global History Blog (category)
+		- Perspectives on Global History
+			- Recent Scholarship
 		- New Global Studies Journal 
-		- Resources
+		- International Conferences on Global History
+		- Resources (To be added when ready)
 		- Scholar's Network
-		- Contribute
-
-Diplomatic
-----------------
-	- right sidebar menu for Diplomatic Network pages. Title links back to main page.
-		- About
-		- Blog (links back to home)
-		- People
-		- Resources
+		- Participate
 
 Editors at Large
 ----------------
@@ -217,8 +232,8 @@ Editors at Large
 		- Welcome
 		- Sign up
 		- Schedule
-		- Instructions
-		- Evaluating Items
+		- Set-up Instructions
+		- Choosing Content
 
 
 
