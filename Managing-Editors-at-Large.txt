@@ -1,3 +1,2 @@
-.. _managing-editors-at-large:
 Managing Editors at Large
 **************************

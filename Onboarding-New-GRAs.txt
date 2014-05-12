@@ -19,13 +19,13 @@ Toynbee Prize
 -------------------
 Primary responsibilities of the GRA are the maintenance of the site, maintenance of comments, the managing of the editors at large, and the publishing of content on the blog.
 
-See :ref:`managing-editors-at-large` and :ref:`toynbee-publishing` for details on the editors and publishing content. See :ref:`theme-manual` for info on managing the site.
+See :doc:`Managing-Editors-at-Large` and :doc:`Publishing-Content` for details on the editors and publishing content. See :doc:`Theme-Features-and-Setup-Twentyfourteen` for info on managing the site.
 
 New Diplomatic History
 --------------------------------
 GRA serves also as the web administrator for New Diplomatic History, adding users as requested and ensuring that material is being publicized properly.
 
-For more detailed information, see :ref:`manage-ndh`
+For more detailed information, see :doc:`Managing-NewDiplomaticHistory`
 
 Accounts
 =================
@@ -58,7 +58,7 @@ Outstanding Projects
 
 Keeping Documentation Up-to-date
 --------------------
-The documentation is under version control at `<https://github.com/ToynbeePrizeFoundation/toynbee_documentation>`.
+The documentation is under version control at https://github.com/ToynbeePrizeFoundation/toynbee_documentation.
 
 Resources Page
 -----------------

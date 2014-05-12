@@ -1,14 +1,13 @@
-.. _manage-ndh:
 Managing New Diplomatic History
 ***************************************
 
 Overview
 =========
-Overall, New Diplomatic History requires very little support. Ken manages the posting of new content. The main role is maintaining the site and plugins, and adding people to or editing the `"Network" <http://newdiplomatichistory.org/people/>`.
+Overall, New Diplomatic History requires very little support. Ken manages the posting of new content. The main role is maintaining the site and plugins, and adding people to or editing the `"Network" <http://newdiplomatichistory.org/people/>`_.
 
 Theme
 ======
-The theme on this site is a modified version of the first global history theme by Kim. The updated theme is under version control at `<https://github.com/ToynbeePrizeFoundation/theme_newglobalhistory>`
+The theme on this site is a modified version of the first global history theme by Kim. The updated theme is under version control at https://github.com/ToynbeePrizeFoundation/theme_newglobalhistory
 
 Adding and Editing People
 ======================

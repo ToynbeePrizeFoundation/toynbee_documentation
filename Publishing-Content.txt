@@ -1,4 +1,3 @@
-.. _toynbee-publishing:
 Publishing Content on Toynbeeprize.org
 ***************************************
 
