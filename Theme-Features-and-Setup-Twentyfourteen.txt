@@ -1,6 +1,7 @@
+.. _theme-manual:
 Theme Features and Setup - Twentyfourteen
 ***************************************
-.. _theme-manual:
+
 
 Introduction
 ===================

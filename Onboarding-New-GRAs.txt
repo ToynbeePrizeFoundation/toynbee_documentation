@@ -1,31 +1,6 @@
 Introduction to Managing toynbeeprize.org
 ***********************
 
-Accounts
-=================
-Servers:
------------
-Dev server: toynbeeprize.chnm.org
-New Diplomatic History: newdiplomatichistory.org
-Toynbee: toynbeeprize.org
-*you will need both server access and WordPress accounts for these.*
-
-3rd Party Services:
--------------
-*See Basecamp for login information*
-Read the Docs
-Google Analytics
-Twitterfeed
-Twitter
-Facebook (?)
-
-Email:
---------
-We have a Google for Non-Profit account for toynbeeprize.org. 
-
-To manage the email accounts and available apps, including docs and calendars, go to admin.google.com. Login information is in BaseCamp.
-
-
 Project Vision and Goal
 ====================
 The current goal of the Toynbee website is to promote the publication of scholarship in Global History and to become a central and respected source for current and developing scholarship in the field. This is being pursued in a couple of different ways. 
@@ -51,6 +26,32 @@ New Diplomatic History
 GRA serves also as the web administrator for New Diplomatic History, adding users as requested and ensuring that material is being publicized properly.
 
 For more detailed information, see :ref:'manage-ndh'
+
+Accounts
+=================
+Servers:
+-----------
+* Dev server: toynbeeprize.chnm.org
+* New Diplomatic History: newdiplomatichistory.org
+* Toynbee: toynbeeprize.org
+
+*You will need both server access and WordPress accounts for these.*
+
+3rd Party Services:
+-------------
+*See Basecamp for login information*
+
+* Read the Docs
+* Google Analytics
+* Twitterfeed
+* Twitter
+* Facebook (?)
+
+Email:
+--------
+We have a Google for Non-Profit account for toynbeeprize.org. 
+
+To manage the email accounts and available apps, including docs and calendars, go to admin.google.com. Login information is in BaseCamp.
 
 Outstanding Projects
 ==================

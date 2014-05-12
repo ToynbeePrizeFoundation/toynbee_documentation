@@ -1,6 +1,7 @@
+.. _toynbee-publishing:
 Publishing Content on Toynbeeprize.org
 ***************************************
-.. _toynbee-publishing:
+
 Generally, new content to the site should be added as "posts." Distinctions between content for the Forum, the Blog, and the Resources is managed by the Categories, while tagging is used to designate both type of content and topics.
 
 Authors 

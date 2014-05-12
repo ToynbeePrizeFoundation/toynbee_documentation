@@ -1,7 +1,7 @@
-
+.. _manage-ndh:
 Managing New Diplomatic History
 ***************************************
-.. _manage-ndh:
+
 Overview
 =========
 Overall, New Diplomatic History requires very little support. Ken manages the posting of new content, and the main point of assistance is in adding new  people to the "Network" or editing their information. 
