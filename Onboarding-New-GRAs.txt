@@ -16,6 +16,15 @@ Toynbee: toynbeeprize.org
 Read the Docs
 Google Analytics
 Twitterfeed
+Twitter
+Facebook (?)
+
+Email:
+--------
+We have a Google for Non-Profit account for toynbeeprize.org. 
+
+To manage the email accounts and available apps, including docs and calendars, go to admin.google.com. Login information is in BaseCamp.
+
 
 Project Vision and Goal
 ====================
@@ -25,7 +34,7 @@ First is the Global History Forum, which solicits thought pieces on Global Histo
 
 Second is the Global History Blog, which curates web content related to Global History. The GRA and the Editors at Large are responsible for nominating and publishing this content. Ideally, the Blog can uncover growing conversations in the field that can, in turn, generate more structured Forum contributions.
 
-Third, the Forum serves to highlight the recipient of the Toynbee Prize and the conference panel on Global History
+Third, the Forum serves to highlight the recipient of the Toynbee Prize and the conference panel on Global History at the AHA. This involves posting information about the current recipient and their talk, if available. In years of the panel, one idea is to post about the panel topic early and invite conversation.
 
 
 GRA Responsibilities
@@ -33,11 +42,13 @@ GRA Responsibilities
 
 Toynbee Prize 
 -------------------
+Primary responsibilities of the GRA are the maintenance of the site, maintenance of comments, the managing of the editors at large, and the publishing of content on the blog.
 
+See :ref:'managing-editors-at-large' and :ref:'toynbee-publishing' for details on the editors and publishing content. See :ref:'theme-manual' for info on managing the site.
 
 New Diplomatic History
 --------------------------------
-GRA serves primarily as the web administrator for New Diplomatic History, adding users as requested and ensuring that material is being publicized properly.
+GRA serves also as the web administrator for New Diplomatic History, adding users as requested and ensuring that material is being publicized properly.
 
 For more detailed information, see :ref:'manage-ndh'
 
@@ -46,10 +57,12 @@ Outstanding Projects
 
 SEO
 ------
+Theme needs to be enhanced with SEO information to get higher search result rankings.
 
 Social Media Campaign
 --------------------------------
+We need a concerted effort to increase followers to the blog and the twitter account. In addition, we need to inspire  more people to serve as editors at large and to contribute content to the blog.
 
 Content Generation for the Forum
 ----------------------------------------------
-
+The GRA provides a support function to the generation of content for the Forum. In addition to Timothy's interviews and solicitations of material, possible sources include asking authors in the New Global History Journal to either expand or write about new ideas inspired in the process of writing their published piece.
