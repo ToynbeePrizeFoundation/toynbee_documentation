@@ -19,7 +19,7 @@ Toynbee Prize
 -------------------
 Primary responsibilities of the GRA are the maintenance of the site, maintenance of comments, the managing of the editors at large, and the publishing of content on the blog.
 
-See :ref:'managing-editors-at-large' and :ref:`toynbee-publishing` for details on the editors and publishing content. See :ref:`theme-manual` for info on managing the site.
+See :ref:`managing-editors-at-large` and :ref:`toynbee-publishing` for details on the editors and publishing content. See :ref:`theme-manual` for info on managing the site.
 
 New Diplomatic History
 --------------------------------
@@ -55,6 +55,24 @@ To manage the email accounts and available apps, including docs and calendars, g
 
 Outstanding Projects
 ==================
+
+Keeping Documentation Up-to-date
+--------------------
+The documentation is under version control at `<https://github.com/ToynbeePrizeFoundation/toynbee_documentation>`.
+
+Resources Page
+-----------------
+Goal is to have a page with Resources for students who are interested in studying Global History. The current concept for this page is a listing of programs, centers, and fellowships that support the study of Global History. 
+
+The list is currently under development. The items listed here are currently being created as Posts that are categorized as "Resources" and are tagged according to type of program. The Page is currently saved as "draft," and once completed, should be added to the Global History Menu and to the Main Menu, under Global History Initiatives.
+
+Editors at Large
+-------------
+The PressForward Plugin is currently not operating on the site due to an unknown permissions problem. Once this is resolved, the feeds listed [?] need to be imported and the Editors at Large Corner re-published.
+
+Content Tags
+-----------------
+One of the goals is to have centers, people, and posts linked to each other through the use of descriptive tags. A controlled vocabulary needs to be created so that this can be done productively.
 
 SEO
 ------

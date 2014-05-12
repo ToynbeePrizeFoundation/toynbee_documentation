@@ -171,7 +171,7 @@ The current design relies heavily on the use of Menus to provide navigation thro
 
 Quick Links
 ----------------
-	- appears on front page and unassigned pages. Gives links to top items:  
+appears on front page and unassigned pages. Gives links to top items:  
 	- Forum
 		- Blog
 		- Toynbee Prize
@@ -181,64 +181,56 @@ Quick Links
 
 Header
 ----------------
-	- appears in the top row with the title. This is the contact menu
-		- Twitter
-		- RSS
-		- Participate
+appears in the top row with the title. This is the contact menu
+	- Twitter
+	- RSS
+	- Participate
 
 Main
 ----------------
-	- appears in left sidebar on all pages. This menu has subpages listed, but they do not display. This is so the "active" styling works when navigating around the site.
-		- The Toynbee Prize Foundation
-			- The Toynbee Prize
-		- Global History Forum (category)
-			- The Global History Forum (page)
-		- Global History Initiatives (category)
-			- Perspectives on Global History
-			- International Conferences Conferences
-			- New Global Studies Journal
-			- Recent Scholarship
-			- Resources
+appears in left sidebar on all pages. This menu has subpages listed, but they do not display. This is so the "active" styling works when navigating around the site.
+	- The Toynbee Prize Foundation
+		- The Toynbee Prize
+	- Global History Forum (category)
+		- The Global History Forum (page)
+	- Global History Initiatives (category)
+		- Perspectives on Global History
+		- International Conferences Conferences
+		- New Global Studies Journal
+		- Recent Scholarship
+		- Resources
 
 Toynbee
 ----------------
-	- right sidebar menu for Toynbee pages. Title links back to main page.
-		- About the Toynbee Prize Foundation
-		- Past Prize Winners
+right sidebar menu for Toynbee pages. Title links back to main page.
+	- About the Toynbee Prize Foundation
+	- Past Prize Winners
 
 Forum
 --------
-	- Right sidebar Menu for Forum Pages.
-		- Global History Forum (category)
-		- About the Forum
-		- Scholars' Network
-		- Participate
+Right sidebar Menu for Forum Pages.
+	- Global History Forum (category)
+	- About the Forum
+	- Scholars' Network
+	- Participate
 
 Global
 ----------------
-	- right sidebar menu for Global pages. Title links back to main page.
-		- Global History Blog (category)
-		- Perspectives on Global History
-			- Recent Scholarship
-		- New Global Studies Journal 
-		- International Conferences on Global History
-		- Resources (To be added when ready)
-		- Scholar's Network
-		- Participate
+right sidebar menu for Global pages. Title links back to main page.
+	- Global History Blog (category)
+	- Perspectives on Global History
+		- Recent Scholarship
+	- New Global Studies Journal 
+	- International Conferences on Global History
+	- Resources (To be added when ready)
+	- Scholar's Network
+	- Participate
 
 Editors at Large
 ----------------
-	- Right sidebar menu for Editors at Large section. Title links to main page. Appears in the contribute page of the Global History section.
-		- Welcome
-		- Sign up
-		- Schedule
-		- Set-up Instructions
-		- Choosing Content
-
-
-
-
-
-
-
-
+Right sidebar menu for Editors at Large section. Title links to main page. Appears in the contribute page of the Global History section.
+	- Welcome
+	- Sign up
+	- Schedule
+	- Set-up Instructions
+	- Choosing Content

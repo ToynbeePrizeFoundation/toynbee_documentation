@@ -1,4 +1,4 @@
-toynbee_documentation
+Toynbee Prize Documentation
 =====================
 Documentation for maintaining the Toynbee Prize Foundation website.
 
