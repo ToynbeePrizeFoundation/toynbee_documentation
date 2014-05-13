@@ -61,6 +61,10 @@ Keeping Documentation Up-to-date
 --------------------
 The documentation is under version control at https://github.com/ToynbeePrizeFoundation/toynbee_documentation.
 
+Navigating Archives
+------------------------
+Currently, when on any post, the "next" and "previous" posts are by time. If we could filter these by category, that would make more sense for usability.
+
 Resources Page
 -----------------
 Goal is to have a page with Resources for students who are interested in studying Global History. The current concept for this page is a listing of programs, centers, and fellowships that support the study of Global History. 
@@ -69,7 +73,9 @@ The list is currently under development. The items listed here are currently bei
 
 Editors at Large
 -------------
-The PressForward Plugin is currently not operating on the site due to an unknown permissions problem. Once this is resolved, the feeds listed [?] need to be imported and the Editors at Large Corner re-published.
+The PressForward Plugin is currently not operating on the site due to an unknown permissions problem. Once this is resolved, the feeds listed [?] need to be imported and the 
+
+In the Spring, the Editors at Large Corner needs to be activated. All the pages are currently saved as "drafts" and the menus have been created. In addition to publishing these pages, in "Widget Areas", the  "Editors at Large Sidebar" needs to be also activated for the "Scholars' Network" and "Participate" pages. Also, on both the "Scholars' Network" and "Participate" pages, the instructions for the Editors at Large need to be uncommented, and " Content for the Global History Blog is curated from the web with the help of our Editors at Large. All of our Editors at Large <a href="#editors">are also listed below</a>."  should be added to the Scholars' Network page.
 
 Content Tags
 -----------------

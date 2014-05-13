@@ -233,3 +233,26 @@ Right sidebar menu for Editors at Large section. Title links to main page. Appea
 	- Schedule
 	- Set-up Instructions
 	- Choosing Content
+
+
+Widget Areas (Custom Sidebars)
+=================
+
+Toynbee Sidebar
+----------------------
+Includes Toynbee Menu and List of Directors
+On Pages:
+	- The Toynbee Prize Foundation
+	- The Toynbee Prize
+
+Global Initiatives Sidebar
+------------------------
+Includes Global Menu; Browse by tag; 
+
+Editors at Large Sidebar
+-------------------------------
+Includes Quick Links Menu; Editors at Large Menu
+
+Forum Sidebar
+----------------------
+Includes Forum Menu; 
