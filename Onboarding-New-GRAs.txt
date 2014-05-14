@@ -1,5 +1,5 @@
 **************************
-Managing toynbeeprize.org
+Getting Started
 ***********************
 
 Project Vision and Goal
@@ -43,8 +43,7 @@ Servers:
 *See Basecamp for login information*
 
 * Read the Docs
-* Google Analytics
-* Twitterfeed
+* Google Analytics 
 * Twitter
 * Facebook (?)
 
@@ -75,7 +74,7 @@ Editors at Large
 -------------
 The PressForward Plugin is currently not operating on the site due to an unknown permissions problem. Once this is resolved, the feeds listed [?] need to be imported and the 
 
-In the Spring, the Editors at Large Corner needs to be activated. All the pages are currently saved as "drafts" and the menus have been created. In addition to publishing these pages, in "Widget Areas", the  "Editors at Large Sidebar" needs to be also activated for the "Scholars' Network" and "Participate" pages. Also, on both the "Scholars' Network" and "Participate" pages, the instructions for the Editors at Large need to be uncommented, and " Content for the Global History Blog is curated from the web with the help of our Editors at Large. All of our Editors at Large <a href="#editors">are also listed below</a>."  should be added to the Scholars' Network page.
+In the Spring, the Editors at Large Corner needs to be activated. All the pages are currently saved as "drafts" and the menus have been created. In addition to publishing these pages, in "Widget Areas", the  "Editors at Large Sidebar" needs to be also activated for the "Scholars' Network" and "Participate" pages. Also, on both the "Scholars' Network" and "Participate" pages, the instructions for the Editors at Large need to be uncommented (viewable in "Text" view only), and " Content for the Global History Blog is curated from the web with the help of our Editors at Large. All of our Editors at Large <a href="#editors">are also listed below</a>."  should be added to the Scholars' Network page.
 
 Content Tags
 -----------------

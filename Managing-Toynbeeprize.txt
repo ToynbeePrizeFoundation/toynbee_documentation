@@ -1,5 +1,5 @@
 ************************
-Managing-ToynbeePrize
+Managing ToynbeePrize
 ************************
 
 Managing Site
