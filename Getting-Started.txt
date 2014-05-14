@@ -1,5 +1,5 @@
 **************************
-Introduction and Set-up
+Getting Started
 ***********************
 
 Project Vision and Goal

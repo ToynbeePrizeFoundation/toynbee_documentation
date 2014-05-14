@@ -311,14 +311,16 @@ Set up Sidebars in Appearance -> Widget Areas
 Toynbee Sidebar
 ----------------------
 Includes Toynbee Menu and Simple Page to Sidebar (officers and trustees page)
-On Pages:
+
+Sidebar appears on Pages
 	- The Toynbee Prize Foundation
 	- The Toynbee Prize
 
 Global Initiatives Sidebar
 ------------------------
 Includes Global Menu and Browse by Tags
-On Pages:
+
+Sidebar appears on Pages:
 	- Global History Initiatives
 	- International Conferences on Global History
 	- New Global Studies Journal
@@ -333,7 +335,8 @@ On Pages:
 Editors at Large Sidebar
 -------------------------------
 Includes Quick Links Menu and Editors at Large Menu
-On Pages:
+
+Sidebar appears on Pages:
 	- Editors at Large Corner (Draft)
 	- Choosing Content: What Should I look for? (Draft)
 	- Instructions for Reviewing and Nominating Content (Draft)
@@ -344,7 +347,8 @@ On Pages:
 Forum Sidebar
 ----------------------
 Includes Forum Menu and Browse by Tags
-On Pages: 
+
+Sidebar appears on Pages: 
 	- The Global History Forum
 	- Forum (Category)
 	- All posts in "Forum"
