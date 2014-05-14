@@ -59,7 +59,7 @@ Outstanding Projects
 
 Keeping Documentation Up-to-date
 --------------------
-The documentation is under version control at https://github.com/ToynbeePrizeFoundation/toynbee_documentation.
+The documentation is under version control at https://github.com/ToynbeePrizeFoundation/toynbee_documentation. Remember to update the ReadtheDocs version (or research if this can automatically watch the repository...)
 
 Navigating Archives
 ------------------------
