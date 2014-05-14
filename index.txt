@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   Getting-Started
+   intro-and-setup
    Managing-NewDiplomaticHistory
    Managing-Toynbeeprize
    Managing-Editors-at-Large
