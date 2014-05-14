@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   Onboarding-New-GRAs
+   Getting-Started
    Managing-NewDiplomaticHistory
    Managing-Toynbeeprize
    Managing-Editors-at-Large

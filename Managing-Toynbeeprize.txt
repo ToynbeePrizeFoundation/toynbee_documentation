@@ -33,7 +33,7 @@ Adding Resources
 This section is currently in draft until we have gathered a critical mass of Resources to highlight. 
 
 Creating Resources
-^^^
+^^^^
 - Resources are added as Posts, with category "Resources." They will not appear in the feeds or on the home page. 
 
 - Add tags to designate type of resource.
@@ -41,7 +41,7 @@ Creating Resources
 - Use the "Featured Image" to display a screen shot of the resource or program page.
 
 Displaying Resources
-^^^
+^^^^
 Once live, use "Widgets on Pages" and "Recent Posts Extended" to display the resources posts.
 
 
@@ -64,7 +64,8 @@ Set Featured Image
 ------------------------
 The current default featured image is the tan map. To set a featured imaged for individual posts, use the "Set Featured Image" box in the lower right corner of the add posts page. The size of the featured image is restricted to thumbnail size. This is controlled in the stylesheet.
 
-And publish.
+And Publish.
+
 
 Publishing Blog Content
 ==========
@@ -76,7 +77,7 @@ All content coming in through the feeds is viewable in "All Content." Use the ri
 
 Selecting Content
 ^^^^
-From "Under Review", the editor can see the number of nominations and the comments on any particular piece. Use the double right facing arrows to create a draft of those pieces to be published on the blog.
+From "Under Review", the editor can see the number of nominations and the comments on any particular piece. Use the double right facing arrows to create a draft of those pieces in "Posts".
 
 Title
 ---------

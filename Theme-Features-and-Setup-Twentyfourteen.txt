@@ -71,6 +71,7 @@ Added 2 function:
 | }
 
 3. Add Function to display coauthors
+
 | function twentyfourteen_posted_on() {
 |    if ( is_sticky() && is_home() && ! is_paged() ) {
 |        echo '<span class="featured-post">' . __( 'Sticky', 'twentyfourteen' ) . '</span>';
@@ -212,11 +213,11 @@ Quick Links
 ----------------
 Appears on front page and unassigned pages. Gives links to top items:  
 	- Forum
-		- Blog
-		- Toynbee Prize
-		- Scholar's Network
-		- Participate
-		- About the Toynbee Prize Foundation
+	- Blog
+	- Toynbee Prize
+	- Scholar's Network
+	- Participate
+	- About the Toynbee Prize Foundation
 
 Header
 ----------------
