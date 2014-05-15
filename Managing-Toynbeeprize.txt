@@ -18,10 +18,6 @@ Editors at Large
 ^^^^
 Editors at Large log into the Wordpress system in order to nominate content. These users require working accounts with their given email address and a default login. They should be added as "Contributors." Their institutional affiliation should be added to the "Bio" area and the "Editors at Large" Members list should be checked.
 
-Authors of Syndicated content
-^^^^^
-Syndicated authors can be added as Guest Authors using "Users -> Guest Authors". This allows for a duplication of the author functionality without requiring the email address information (this can be added but is not required).
-
 
 Adding Recent Publications
 ------------------
@@ -33,7 +29,7 @@ Adding Resources
 This section is currently in draft until we have gathered a critical mass of Resources to highlight. 
 
 Creating Resources
-^^^^
+^^^
 - Resources are added as Posts, with category "Resources." They will not appear in the feeds or on the home page. 
 
 - Add tags to designate type of resource.
@@ -41,12 +37,16 @@ Creating Resources
 - Use the "Featured Image" to display a screen shot of the resource or program page.
 
 Displaying Resources
-^^^^
+^^^
 Once live, use "Widgets on Pages" and "Recent Posts Extended" to display the resources posts.
 
 
 Publishing Forum Content
 ======================
+Determine Excerpt for Home Page
+----------------------
+To keep things readable on the home page, use the "Read More tag" to designate how much content will appear on Search, Archive, and Home pages.
+
 Assign Category and Tags
 --------------
 - For Forum content, use the "Forum" Category. 
@@ -64,47 +64,25 @@ Set Featured Image
 ------------------------
 The current default featured image is the tan map. To set a featured imaged for individual posts, use the "Set Featured Image" box in the lower right corner of the add posts page. The size of the featured image is restricted to thumbnail size. This is controlled in the stylesheet.
 
-And Publish.
-
+And publish.
 
 Publishing Blog Content
 ==========
-Reviewing and Selecting Content via PressForward Plugin
+Reviewing and Selecting Content from PressForward Plugin
 ------------------------
-Reviewing Content
-^^^^
-All content coming in through the feeds is viewable in "All Content." Use the right facing arrow to send items to "Under Review". Editors at Large see the "All Content" page.
-
-Selecting Content
-^^^^
-From "Under Review", the editor can see the number of nominations and the comments on any particular piece. Use the double right facing arrows to create a draft of those pieces in "Posts".
-
-Title
----------
-Add Tag name to the beginning of the title to aid link recognition (Editors' Choice for thought pieces; News area for news pieces)
-
-Linking Out
----------------
-- Add link at bottom of post directing the reader back to the original content. 
-- For thought pieces, only include a short "snippet" of the content in order to respect copyright. Link out to the original post for the whole piece.
 
 Assign Category and Tags
 --------------
 - For Blog content, use the "Global History Blog" category. 
-- For new items, assign "Announcements", "Conferences and CFPs", "Jobs", or "Funding and Opportunities".
-- For thought pieces, assign "Editors Choice" tag and added descriptive tags according to the Forum fixed vocabulary.
+- For new items, assign "
+- For 
 
 Set Authors
 ----------------
-- For news items, set the Author to "Toynbee Editors" and remove the post creator.
-- For thought pieces, use Guest User to create a display name that links to content. Set the Author to the corresponding Guest Author. (see :ref:`adding-users`)
 
 Commenting
 -------------
-Turn off commenting for syndicated content.
 
 Set Featured Image
 ------------------------
-Set unique featured image if desired.
 
-And Publish.
